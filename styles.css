@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container-principal {
+    background: linear-gradient(179.8deg, #218100 38.78%, rgba(35, 136, 0, 0) 115%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.circle-white {
+    position: absolute;
+    clip-path: circle(40%);
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+    margin: 90px 0 121px 740px;
+}
+
+header {
+    display: inline-block;
+    margin: 43px 0 0 131px;
+}
+
+a {
+    margin-right: 688px;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.link {
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.button-cart {
+    width: 113px;
+    height: 28px;
+    background: #BDB5B5;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.compra {
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+section {
+    display: inline-block;
+    margin: 89px 0 0 131px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 183px;
+    width: 711px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    width: 614px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    width: 119px;
+    margin-bottom: 20px;
+}
+
+.button-buy {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 148px;
+    height: 39px;
+    background: #FF7A00;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button-buy:hover {
+    opacity: .6;
+}
+
+.button-buy:active {
+    opacity: .4;
+}
+
+
+.tenis {
+    height: 600px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 560px;
+}
+
+@media screen and (min-width:900px) {
+    .container-principal {
+        max-width: 900px;
+        height: auto;
+    }
+}
