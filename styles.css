@@ -4,31 +4,23 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: white;
+
 }
 
-.container-principal {
-    background: linear-gradient(179.8deg, #218100 38.78%, rgba(35, 136, 0, 0) 115%);
-    height: 100vh;
+body {
+    background: linear-gradient(180deg, rgba(35, 136, 0, 1) 38%, rgba(255, 255, 255, 1) 99%);
+    background-repeat: no-repeat;
     width: 100vw;
-}
-
-.circle-white {
-    position: absolute;
-    clip-path: circle(40%);
-    background-color: #ffffff;
-    width: 50%;
-    height: 100%;
-    margin: 90px 0 121px 740px;
+    height: 100vh;
 }
 
 header {
-    display: inline-block;
-    margin: 43px 0 0 131px;
+    margin: 43px 40px 0 131px;
 }
 
 a {
     margin-right: 688px;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 24px;
     line-height: 29px;
 }
@@ -51,7 +43,6 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-
 }
 
 .compra {
@@ -62,11 +53,7 @@ a {
     margin-left: 5px;
 }
 
-.container {
-    display: flex;
-}
-
-section {
+.text-box {
     display: inline-block;
     margin: 89px 0 0 131px;
 }
@@ -76,13 +63,12 @@ h1 {
     font-size: 150px;
     line-height: 183px;
     width: 711px;
-
 }
 
 p {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 20px;
     width: 614px;
     margin: 20px 0;
 }
@@ -105,7 +91,6 @@ h2 {
     border-radius: 12px;
     border: none;
     cursor: pointer;
-
 }
 
 .button-buy:hover {
@@ -116,17 +101,22 @@ h2 {
     opacity: .4;
 }
 
-
-.tenis {
-    height: 600px;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 560px;
+.container-image {
+    display: inline-block;
 }
 
-@media screen and (min-width:900px) {
-    .container-principal {
-        max-width: 900px;
-        height: auto;
-    }
+.circle-white {
+    background-color: #ffffff;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+}
+
+.tenis {
+    height: 650px;
+    position: absolute;
+    top: 100px;
+    right: 150px;
 }
