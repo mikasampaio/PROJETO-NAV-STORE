@@ -10,7 +10,7 @@
 body {
     background: linear-gradient(180deg, rgba(35, 136, 0, 1) 38%, rgba(255, 255, 255, 1) 99%);
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -33,6 +33,10 @@ a {
     cursor: pointer;
 }
 
+.link:hover {
+    color: black;
+}
+
 .button-cart {
     width: 113px;
     height: 28px;
@@ -43,6 +47,10 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
+}
+
+.button-cart:hover {
+    color: black;
 }
 
 .compra {
@@ -119,4 +127,11 @@ h2 {
     position: absolute;
     top: 100px;
     right: 150px;
+    transition: 1s;
+}
+
+.tenis:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
