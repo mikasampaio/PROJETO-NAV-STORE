@@ -15,11 +15,11 @@ body {
 }
 
 header {
-    margin: 43px 40px 0 131px;
+    margin: 10px 0 0 45px;
 }
 
 a {
-    margin-right: 688px;
+    margin-right: 500px;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
@@ -63,21 +63,19 @@ a {
 
 .text-box {
     display: inline-block;
-    margin: 89px 0 0 131px;
+    margin: 60px 0 0 45px;
 }
 
 h1 {
     font-weight: 800;
-    font-size: 150px;
-    line-height: 183px;
-    width: 711px;
+    font-size: 100px;
 }
 
 p {
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    width: 614px;
+    width: 500px;
     margin: 20px 0;
 }
 
@@ -91,12 +89,12 @@ h2 {
 
 .button-buy {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
     width: 148px;
     height: 39px;
     background: #FF7A00;
-    border-radius: 12px;
+    border-radius: 15px;
     border: none;
     cursor: pointer;
 }
@@ -115,18 +113,19 @@ h2 {
 
 .circle-white {
     background-color: #ffffff;
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     position: absolute;
-    top: 200px;
+    top: 125px;
+    left: 50%;
 }
 
 .tenis {
-    height: 650px;
+    height: 495px;
     position: absolute;
-    top: 100px;
-    right: 150px;
+    top: 40px;
+    right: 12%;
     transition: 1s;
 }
 
