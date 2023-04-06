@@ -1,8 +1,8 @@
 <h1 align="center"> NAV STORE </h1>
 <br>
-<div display="inline-block">
-<img width="200px" src="https://raw.githubusercontent.com/mikasampaio/PROJETO-NAV-STORE/1642375ad2373377f7942bf5bd428a9a5ce55892/assets/mobile%20(3).png">
-<img width="750px" src="https://raw.githubusercontent.com/mikasampaio/PROJETO-NAV-STORE/1642375ad2373377f7942bf5bd428a9a5ce55892/assets/mobile%20(2).png">
+<div align="center">
+<img height="300px" src="https://raw.githubusercontent.com/mikasampaio/PROJETO-NAV-STORE/1642375ad2373377f7942bf5bd428a9a5ce55892/assets/mobile%20(3).png">
+<img height="300px" src="https://raw.githubusercontent.com/mikasampaio/PROJETO-NAV-STORE/1642375ad2373377f7942bf5bd428a9a5ce55892/assets/mobile%20(2).png">
 </div>
 
 <h2>Sobre</h2>
